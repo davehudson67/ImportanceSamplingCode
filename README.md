@@ -2,6 +2,7 @@
 Code to accompany 'Importance Sampling and Bayesian model comparison in ecology and evolution'
 
 ## Explantion of data required and format
+(n is the number of individuals)
 
 cint = a matrix [n, 2]; column 1 is either the last seen alive time (for interval censored individuals) or a zero (for right censored individuals). Column 2 is the recovered dead time (for interval censored individuals) or the last seen alive time (for right censored individuals)
 
