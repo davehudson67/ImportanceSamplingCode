@@ -11,7 +11,7 @@ Open and run the "InitialModelComparisonPostMongoose.R" code which will then com
 
 "mong.RData" is the formatted Mongoose data.
 
-## Explantion of data format
+## Explanation of data format
 (n is the number of individuals)
 
 cint = a matrix [n, 2]; column 1 is either the last seen alive time (for interval censored individuals) or a zero (for right censored individuals). Column 2 is the recovered dead time (for interval censored individuals) or the last seen alive time (for right censored individuals)
