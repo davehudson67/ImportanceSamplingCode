@@ -182,6 +182,7 @@ logimpweight <- logimpweight -
   log(0.95 * dens(data = props, modelName = mod$modelName, parameters = mod$parameters, logarithm = FALSE) + 
         0.05 * exp(dexp(props[, 1], 1, log = TRUE) + 
      dexp(props[, 2], 1, log = TRUE)))
+saveRDS(logimpweight, "logimpweight_g.rds")
 
 ## final checks
 summary(props[is.finite(logimpweight), ])
