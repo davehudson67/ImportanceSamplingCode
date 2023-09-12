@@ -5,7 +5,7 @@ Code to accompany 'Importance Sampling and Bayesian model comparison in ecology 
 
 The code files here demonstrate fitting a Gompertz model to the Mongoose data and estimating the marginal likelihood. It then allows the comparison of this with 3 other different mortality models that have already been run.
 
-Download the files from this repo and set the working directory to that folder.
+Download the files from this repo and set the working directory to that folder. Also ensure the folder "outputs" is copied to your working directory with the various output files inside.
 Open and run the "FitGompertzMongoose.R" code which will then lead you through the process of completing marginal likelihood estimation via MCMC and Importance Sampling. The final stage of this code will save the output into the output folder.
 Open and run the "InitialModelComparisonPostMongoose.R" code which will then compare the 4 mortality models and plot output.
 
